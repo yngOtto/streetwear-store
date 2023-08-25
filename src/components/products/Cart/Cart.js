@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Cart({ items }) {
-  // Function to calculate the total price
+  // functional to calculate total prive of items in cart
   const calculateTotal = () => {
     return items.reduce((total, item) => total + item.price * item.quantity, 0);
   };
@@ -13,7 +13,7 @@ function Cart({ items }) {
         {items.map((item) => (
           <li key={item.id}>
             {item.name} - ${item.price} x {item.quantity} = ${item.price * item.quantity}
-            {/* Buttons to adjust quantity can be added here */}
+            {/* add buttons to adjust quantity */}
           </li>
         ))}
       </ul>
