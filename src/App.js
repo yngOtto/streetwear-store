@@ -5,7 +5,7 @@ import store from './store';
 import Header from './components/layout/Header/Header';
 import ProductList from './components/products/ProductList/ProductList';
 import ProductDetail from './components/products/ProductDetail/ProductDetail';
-import Cart from './components/products/Cart/Cart'; // Note: If Cart is also moved, update this path accordingly
+import Cart from './components/products/Cart/Cart'; 
 
 function App() {
   return (
