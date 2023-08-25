@@ -9,7 +9,7 @@ function ProductDetail() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // Fetch product details from API
+    // Fetch product details from your API
     fetch(`/api/products/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
@@ -36,4 +36,4 @@ function ProductDetail() {
   );
 }
 
-  export default ProductDetail;
+export default ProductDetail;
