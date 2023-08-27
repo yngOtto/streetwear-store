@@ -5,12 +5,22 @@ const messages = ['TRANSCENDING WORLDLY TROUBLES', 'ATTAINING A FORM OF EQUANIMI
 
 function DynamicHeader() {
   const [currentMessage, setCurrentMessage] = useState(messages[0]);
+  const [opacity, setOpacity] = useState(1);
   let index = 0;
 
   useEffect(() => {
     const interval = setInterval(() => {
-      index = (index + 1) % messages.length;
-      setCurrentMessage(messages[index]);
+      // Fade out
+      setOpacity(0);
+
+      setTimeout(() => {
+        index = (index + 1) % messages.length;
+        setCurrentMessage(messages[index]);
+
+        // Fade in
+        setOpacity(1);
+      }, 2000); 
+      
     }, 8000); 
 
     return () => clearInterval(interval);
@@ -18,7 +28,9 @@ function DynamicHeader() {
 
   return (
     <div className="dynamic-header-tab">
-      {currentMessage}
+      <span style={{ opacity: opacity, transition: 'opacity 2s ease-in-out' }}>
+        {currentMessage}
+      </span>
     </div>
   );
 }
