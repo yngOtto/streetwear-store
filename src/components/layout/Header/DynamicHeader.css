@@ -1,8 +1,15 @@
 .dynamic-header-tab {
     background-color: #000;
+    font-family: Death Note;
     color: #fff;
     text-align: center;
     padding: 5px;
     font-size: 16px;
   }
   
+  @font-face {
+    font-family: 'Death Note';
+    src: url('/public/fonts/Death_Note_Font_by_Karlibell22.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
