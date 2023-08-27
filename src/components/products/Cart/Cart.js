@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Cart({ items }) {
-  // functional to calculate total prive of items in cart
   const calculateTotal = () => {
     return items.reduce((total, item) => total + item.price * item.quantity, 0);
   };
