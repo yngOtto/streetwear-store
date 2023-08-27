@@ -19,7 +19,7 @@ function DynamicHeader() {
         setOpacity(1);
       }, 2000); 
       
-    }, 8000); 
+    }, 7000); 
 
     return () => clearInterval(interval);
   }, []);
