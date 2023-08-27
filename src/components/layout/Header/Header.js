@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
   return (
     <header>
-      <h1>My Streetwear Store</h1>
+      <h1>serenetiy beyond</h1>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/cart">Cart</Link>
