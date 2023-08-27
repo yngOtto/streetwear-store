@@ -9,11 +9,11 @@ function Header() {
       <h1 className="header-title">serenity beyond</h1>
       <div className="header-nav">
         <nav className="nav-links">
-          <Link to="/">Home</Link>
-          <Link to="/new-arrivals">New Arrivals</Link>
-          <Link to="/about">About Us</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/cart">Cart</Link>
+          <Link to="/">home</Link>
+          <Link to="/new-arrivals">new arrivals</Link>
+          <Link to="/about">about us</Link>
+          <Link to="/contact">contact us</Link>
+          <Link to="/cart">cart</Link>
         </nav>
       </div>
     </header>
