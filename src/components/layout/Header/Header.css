@@ -44,8 +44,8 @@
 
   @font-face {
     font-family: 'Cloister Black';
-    src: url('/fonts/CloisterBlack.woff2') format('woff2'),
-         url('/fonts/CloisterBlack.woff') format('woff');
+    src: url('/public/fonts/DS\ Cloister\ Black.otf') format('woff2'),
+         url('/public/fonts/DS\ Cloister\ Black.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
   }
