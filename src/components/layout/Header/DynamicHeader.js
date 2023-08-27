@@ -10,14 +10,12 @@ function DynamicHeader() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // Fade out
       setOpacity(0);
 
       setTimeout(() => {
         index = (index + 1) % messages.length;
         setCurrentMessage(messages[index]);
 
-        // Fade in
         setOpacity(1);
       }, 2000); 
       
