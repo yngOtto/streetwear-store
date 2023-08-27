@@ -1,0 +1,44 @@
+.header {
+    background: #000 url('/public/grafiti.jpg');
+    color: #fff;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header-title {
+    font-family: 'YourGraffitiFont', sans-serif;
+    font-size: 36px;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    margin-right: 20px;
+    padding: 10px;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .header-icons {
+    margin-left: auto;
+  }
+  
+
+  @media (max-width: 768px) {
+    .header {
+      background-image: url('/images/graffiti-background-mobile.jpg');
+    }
+  }
+  
