@@ -7,7 +7,7 @@ import DynamicHeader from './components/layout/Header/DynamicHeader';
 import ProductList from './components/products/ProductList/ProductList';
 import ProductDetail from './components/products/ProductDetail/ProductDetail';
 import Cart from './components/products/Cart/Cart'; 
-import LandingPage from './components/pages/LandingPage';
+import LandingPage from './components/pages/landingpage/LandingPage';
 
 
 function App() {
@@ -16,12 +16,12 @@ function App() {
       <Router>
         <DynamicHeader />
         <Header />
+        <LandingPage />
         <Routes>
           <Route path="/" exact component={LandingPage} />
           <Route path="/products" component={ProductList} />
           <Route path="/product/:id" component={ProductDetail} />
           <Route path="/cart" component={Cart} />
-          
         </Routes>
       </Router>
     </Provider>
