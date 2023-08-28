@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux'; 
 import './Header.css';  
 
 function Header() {
+  const isDynamicHeaderVisible = useSelector(state => state.isDynamicHeaderVisible);
+
   return (
-    <header className="header">
+    <header className="header" style={{ top: isDynamicHeaderVisible ? '50px' : '0' }}>
       <div className="background"></div>
       <h1 className="header-title">serenity beyond</h1>
       <div className="header-nav">
