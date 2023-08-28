@@ -8,7 +8,7 @@
     background: #000 url('/public/grafiti.jpg');
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 15vh;
     z-index: 1;  
   }
   
