@@ -16,18 +16,24 @@ function DynamicHeader() {
   const dispatch = useDispatch(); 
   let index = 0;
 
+  // gunction to handle scroll events
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
     const headerHeight = headerRef.current.offsetHeight;
     const isHeaderVisible = currentScrollPos < headerHeight;
     setShow(isHeaderVisible);
 
+    // update redux state to control the visibility of the main Header
     dispatch({ type: 'SET_DYNAMIC_HEADER_VISIBILITY', payload: isHeaderVisible });
   };
 
   useEffect(() => {
+    const headerHeight = headerRef.current ? headerRef.current.offsetHeight : 0;
+    dispatch({ type: 'SET_DYNAMIC_HEADER_HEIGHT', payload: headerHeight });
+
     window.addEventListener('scroll', handleScroll);
 
+    // logic for message rotation
     const interval = setInterval(() => {
       setOpacity(0);
       setTimeout(() => {
@@ -52,5 +58,5 @@ function DynamicHeader() {
   );
 }
 
-console.log("DynamicHeader rendered")
+console.log("DynamicHeader rendered");
 export default DynamicHeader;
