@@ -1,5 +1,6 @@
 .header {
     position: fixed;
+    top: 50px;
     color: #fff;
     display: flex;
     flex-direction: column;

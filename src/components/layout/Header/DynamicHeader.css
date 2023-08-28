@@ -1,13 +1,16 @@
 .dynamic-header-tab {
-    background-color: #3d3d3d;
-    position: fixed;
-    font-family: Cinzel;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
-    transition: opacity 0.5s ease-in-out;
-  }
+  top: 0;
+  background-color: #3d3d3d;
+  position: fixed;
+  width: 100%;
+  font-family: Cinzel;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1001;
+}
 
   .dynamic-header-tab.hide {
     opacity: 0;

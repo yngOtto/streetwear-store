@@ -53,4 +53,5 @@ function DynamicHeader() {
   );
 }
 
+console.log("DynamicHeader rendered")
 export default DynamicHeader;
