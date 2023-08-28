@@ -5,8 +5,7 @@ import './DynamicHeader.css';
 const messages = [
   'TRANSCENDING WORLDLY TROUBLES',
   'ATTAINING A FORM OF EQUANIMITY THAT REMAINS IMPERVIOUS TO EXTERNAL PERTURBATIONS',
-  'SPEND 500DKK MORE FOR FREE SHIPPING',
-  'LIMITED TIME ONLY!'
+  'SPEND 500DKK FOR FREE SHIPPING'
 ];
 
 function DynamicHeader() {
@@ -18,7 +17,7 @@ function DynamicHeader() {
   let index = 0;
 
   const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
+    const currentScrollPos = window.scrollY;
     const headerHeight = headerRef.current.offsetHeight;
     const isHeaderVisible = currentScrollPos < headerHeight;
     setShow(isHeaderVisible);
