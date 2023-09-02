@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import store from './redux/store';
 import { Provider } from 'react-redux';
 import Header from './components/layout/Header/Header';
-import DynamicHeader from './components/layout/Header/DynamicHeader';
 import ProductList from './components/products/ProductList/ProductList';
 import ProductDetail from './components/products/ProductDetail/ProductDetail';
 import Cart from './components/products/Cart/Cart'; 
@@ -14,7 +13,6 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <DynamicHeader />
         <Header />
         <LandingPage />
         <Routes>
