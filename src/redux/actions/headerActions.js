@@ -4,4 +4,12 @@ export const setDynamicHeaderVisibility = (isVisible) => {
       payload: isVisible
     };
   };
+
+export const setDynamicHeaderHeight = (height) => {
+  return {
+    type: 'SET_DYNAMIC_HEADER_HEIGHT',
+    payload: height
+  };
+};
+
   
