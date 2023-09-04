@@ -1,13 +1,13 @@
 /* General Styles for Landing Page */
 .landing-page {
-    background-color: #121212;
+    background-color: #000000;
     color: white;
     font-family: 'Arial', sans-serif;
   }
   
   /* Hero Section */
   .hero-section {
-    /* background: url('path/to/your/dark-image.jpg') no-repeat center center; */
+    background: url('/public/grafiti.jpg') no-repeat center center; 
     background-size: cover;
     height: 80vh;
     display: flex;
