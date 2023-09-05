@@ -15,7 +15,7 @@ function Header() {
       <h1 className="header-title">serenity beyond</h1>
       <div className="header-nav">
         <nav className="nav-links">
-          <Link to="/">home</Link>
+          <Link to="/">store</Link>
           <Link to="/new-arrivals">new arrivals</Link>
           <Link to="/collections">collections</Link>
           <Link to="/about">about us</Link>

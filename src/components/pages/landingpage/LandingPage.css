@@ -1,6 +1,6 @@
 .landing-page {
-    background-color: #000000;
-    color: white;
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
     font-family: 'Cinzel', sans-serif;
   }
   
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: brightness(1500%);
   }
   
   .hero-section h1 {
@@ -22,8 +23,8 @@
   
   /* featured products */
   .new-arrivals {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     padding: 2em;
     text-align: center;
   }
@@ -35,7 +36,8 @@
   
   /* about section */
   .about-section {
-    background-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
     padding: 2em;
     text-align: center;
   }
