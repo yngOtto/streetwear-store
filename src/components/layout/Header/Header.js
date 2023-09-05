@@ -12,7 +12,7 @@ function Header() {
   return (
     <header className="header">
       <div className="background"></div>
-      <h1 className="header-title">placeholder</h1>
+      <h1 className="header-title">serenity beyond</h1>
       <div className="header-nav">
         <nav className="nav-links">
           <Link to="/">home</Link>

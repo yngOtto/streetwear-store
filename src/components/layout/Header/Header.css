@@ -30,6 +30,7 @@
     padding: 0px;
     margin: 0;
   }
+
   
   .header-nav {
     display: flex;
@@ -71,6 +72,7 @@
 .cart-icon {
   margin-left: 20px;
   position: relative;
+  order: 2;
 }
 
 .cart-icon a {
