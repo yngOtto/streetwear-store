@@ -9,7 +9,7 @@
   .hero-section {
     background: url('/public/grafiti.jpg') no-repeat center center; 
     background-size: cover;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;

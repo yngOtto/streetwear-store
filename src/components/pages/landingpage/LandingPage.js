@@ -10,13 +10,13 @@ const LandingPage = () => {
     <div className="landing-page" style={{ backgroundColor: '#121212', color: 'white' }}>
       {/* Hero Section */}
       <section className="hero-section">
-        <h1>Unleash Your Style</h1>
+
         {/* Add more content or images */}
       </section>
       
       {/* Featured Products */}
       <section className="featured-products">
-        <h2>Featured Products</h2>
+        <h2>new arrivals</h2>
         {/* Map through your featured products and render ProductCard components */}
       </section>
       
