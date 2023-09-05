@@ -1,11 +1,10 @@
-/* General Styles for Landing Page */
 .landing-page {
     background-color: #000000;
     color: white;
     font-family: 'Arial', sans-serif;
   }
   
-  /* Hero Section */
+  /* hero section */
   .hero-section {
     background: url('/public/grafiti.jpg') no-repeat center center; 
     background-size: cover;
@@ -20,7 +19,7 @@
     text-shadow: 2px 2px 4px #000000;
   }
   
-  /* Featured Products */
+  /* featured products */
   .featured-products {
     padding: 2em;
     text-align: center;
@@ -31,7 +30,7 @@
     margin-bottom: 1em;
   }
   
-  /* About Section */
+  /* about section */
   .about-section {
     padding: 2em;
     text-align: center;
