@@ -1,11 +1,12 @@
 .landing-page {
     background-color: #000000;
     color: white;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Cinzel', sans-serif;
   }
   
   /* hero section */
   .hero-section {
+    font-family: 'Cinzel', sans-serif;
     background: url('/public/grafiti.jpg') no-repeat center center; 
     background-size: cover;
     height: 75vh;
@@ -48,3 +49,10 @@
     font-size: 1.2em;
   }
   
+  @font-face {
+    font-family: 'Cinzel';
+    src: url('/public/fonts/Cinzel-Medium.ttf')('woff2'),
+         url('/public/fonts/Cinzel-Medium.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
