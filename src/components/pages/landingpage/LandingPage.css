@@ -9,7 +9,7 @@
     font-family: 'Cinzel', sans-serif;
     background: url('/public/grafiti.jpg') no-repeat center center; 
     background-size: cover;
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
