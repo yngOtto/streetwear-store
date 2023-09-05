@@ -15,8 +15,8 @@ const LandingPage = () => {
       </section>
       
       {/* Featured Products */}
-      <section className="featured-products">
-        <h2>new arrivals</h2>
+      <section className="new-arrivals">
+        <h2>new arrivals >:)</h2>
         {/* Map through your featured products and render ProductCard components */}
       </section>
       
