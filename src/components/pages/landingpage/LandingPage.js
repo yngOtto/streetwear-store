@@ -10,7 +10,9 @@ const LandingPage = () => {
     <div className="landing-page" style={{ backgroundColor: '#121212', color: 'white' }}>
       {/* Hero Section */}
       <section className="hero-section">
-        <h1>serenity beyond</h1>
+        <h1>FALL_01 
+          DROPPING SOON
+        </h1>
         {/* Add more content or images */}
       </section>
       
