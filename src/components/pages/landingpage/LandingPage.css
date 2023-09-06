@@ -6,8 +6,7 @@
 
   @font-face {
     font-family: 'Cinzel';
-    src: url('/public/fonts/Cinzel-Medium.ttf')('woff2'),
-         url('/public/fonts/Cinzel-Medium.ttf') format('woff');
+    src: url('/public/fonts/Cinzel-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -22,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: brightness(200%);
+    filter: brightness(100%);
   }
   
   .hero-section h1 {
